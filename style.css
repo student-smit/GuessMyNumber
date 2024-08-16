@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@404&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 400; */
+  /* font-style: italic; */
+  font-size: 18px;
+}
+
+body {
+  background-color: lightblue;
+  width: 90%;
+  margin: auto;
+}
+h2 {
+  margin: 10px 0px;
+  text-align: center;
+  text-decoration: underline;
+  color: brown;
+  font-size: 24px;
+}
+.upper {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#rules {
+  font-weight: bold;
+}
+
+#guessValue {
+  border: none;
+  border-radius: 5px;
+  height: 27px;
+  font-size: 15px;
+  padding: 5px 5px;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  padding: 2px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 2px 8px;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: rgb(41, 41, 124);
+  color: white;
+  font-size: 16px;
+  padding: 2px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 2px 8px;
+}
